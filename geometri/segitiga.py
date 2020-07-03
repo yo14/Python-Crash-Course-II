@@ -1,6 +1,11 @@
-def info():
-    return 'Modul menghitung rumus-rumus tentang segitiga'
+class Segitiga():
 
-def hitung_luas_segitiga(alas, tinggi):
-    luas_segitiga = alas * tinggi / 2
-    return luas_segitiga
+    def __init__(self, alas, tinggi):
+        self.alas = alas
+        self.tinggi = tinggi
+
+    def info(self):
+        return f'Ini adalah object dari Segitiga dengan alas = {self.alas} dan tinggi = {self.tinggi}'
+
+    def hitung_luas(self):
+        return self.alas * self.tinggi / 2

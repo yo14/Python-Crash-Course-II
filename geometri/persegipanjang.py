@@ -1,5 +1,11 @@
-def info():
-    return 'Modul menghitung rumus-rumus tentang persegipanjang'
+class PersegiPanjang():
 
-def hitung_luas_persegi_panjang(p, l):
-    return p * l
+    def __init__(self, p, l):
+        self.p = p
+        self.l = l
+
+    def info(self):
+        return f'Ini adalah object dari Persegi panjang dengan panjang = {self.p} dan lebar = {self.l}'
+
+    def hitung_luas(self):
+        return self.p * self.l
