@@ -5,3 +5,4 @@
 OOP IN PYTHON
 - Encapsulation
 - Inheritance
+- Polymorphism
