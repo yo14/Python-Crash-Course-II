@@ -4,3 +4,4 @@
 <br><br>
 OOP IN PYTHON
 - Encapsulation
+- Inheritance
